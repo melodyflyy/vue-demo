@@ -32,7 +32,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: build
-        run: pnpm build-only
+        run: pnpm build
           
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.5.9 # 使用别人写好的 actions
